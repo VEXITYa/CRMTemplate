@@ -1,10 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Setting2.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Car.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="User.cs" />

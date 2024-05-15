@@ -1,14 +1,31 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BaseDal.cs" />
+    <Compile Include="DbModels\Car.cs" />
+    <Compile Include="DbModels\CarsOrder.cs" />
+    <Compile Include="DbModels\Client.cs" />
+    <Compile Include="DbModels\ClientsCar.cs" />
+    <Compile Include="DbModels\ClientsOrder.cs" />
+    <Compile Include="DbModels\Competence.cs" />
     <Compile Include="DbModels\DefaultDbContext.cs" />
+    <Compile Include="DbModels\Employee.cs" />
+    <Compile Include="DbModels\Order.cs" />
+    <Compile Include="DbModels\OrderPart.cs" />
+    <Compile Include="DbModels\OrderService.cs" />
+    <Compile Include="DbModels\OrdersPart.cs" />
+    <Compile Include="DbModels\OrdersService.cs" />
+    <Compile Include="DbModels\Part.cs" />
+    <Compile Include="DbModels\Service.cs" />
+    <Compile Include="DbModels\ServicePart.cs" />
     <Compile Include="DbModels\User.cs" />
     <Compile Include="OrderedQueryableVisitor.cs" />
     <Compile Include="UsersDal.cs" />
+    <Compile Include="ClientsDal.cs" />
+    <Compile Include="CarsDal.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Humanizer" Version="2.14.1" />

@@ -17,5 +17,6 @@ create table Users
 
 insert into Users values
 ('dev', '', 0, 0, GETDATE()),
+('dev', 'dev', 0, 0, GETDATE()),
 ('admin', '', 1, 0, GETDATE());
 go
